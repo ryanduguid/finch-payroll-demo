@@ -1,0 +1,46 @@
+[
+  {
+    "_comment": "MONEY SHOT — SS withheld past the wage base. YTD already over $176,100, but 6.2% SS still deducted.",
+    "individual_name": "Sarah Mifsud",
+    "country": "US",
+    "gross_pay": { "amount": 800000, "currency": "usd" },
+    "ytd_prior_gross": 18000000,
+    "taxes": [
+      { "name": "Social Security", "amount": 49600, "employer": false },
+      { "name": "Medicare", "amount": 11600, "employer": false }
+    ]
+  },
+  {
+    "_comment": "MONEY SHOT 2 — Additional Medicare Tax (0.9%) over $200k not withheld. Only base 1.45% taken.",
+    "individual_name": "Dave Romero",
+    "country": "US",
+    "gross_pay": { "amount": 1500000, "currency": "usd" },
+    "ytd_prior_gross": 20500000,
+    "taxes": [
+      { "name": "Social Security", "amount": 0, "employer": false },
+      { "name": "Medicare", "amount": 21750, "employer": false }
+    ]
+  },
+  {
+    "_comment": "Correct — well under both caps.",
+    "individual_name": "Lena Park",
+    "country": "US",
+    "gross_pay": { "amount": 500000, "currency": "usd" },
+    "ytd_prior_gross": 4000000,
+    "taxes": [
+      { "name": "Social Security", "amount": 31000, "employer": false },
+      { "name": "Medicare", "amount": 7250, "employer": false }
+    ]
+  },
+  {
+    "_comment": "Wrong SS rate — 5.5% withheld instead of 6.2%.",
+    "individual_name": "Omar Haddad",
+    "country": "US",
+    "gross_pay": { "amount": 600000, "currency": "usd" },
+    "ytd_prior_gross": 3000000,
+    "taxes": [
+      { "name": "Social Security", "amount": 33000, "employer": false },
+      { "name": "Medicare", "amount": 8700, "employer": false }
+    ]
+  }
+]

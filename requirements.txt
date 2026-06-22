@@ -1,0 +1,2 @@
+# The demo runs on the Python standard library alone (urllib + json).
+# Live mode needs only a Finch access token (FINCH_ACCESS_TOKEN) — no extra deps.
